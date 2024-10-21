@@ -7,6 +7,7 @@ This is a project for my Internship Training (Year 1) of Cavendish University. T
 2. Coolors (link to coolors website)
 
 
+
 ## Colors Used
 - Header - #121E38
 - Text - FFFFFF
