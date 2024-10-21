@@ -8,8 +8,8 @@ This is a project for my Internship Training (Year 1) of Cavendish University. T
 
 
 ## Colors Used
-Header - #121E38
-Text - FFFFFF
-Body-Head, Button & Footer-Head  - #213769
-Body-Body - #213769 74% transparency
-Border-color - 000000
+- Header - #121E38
+- Text - FFFFFF
+- Body-Head, Button & Footer-Head  - #213769
+- Body-Body - #213769 74% transparency
+- Border-color - 000000
