@@ -58,6 +58,18 @@ main > div {
     border-bottom: 5px solid black;
 }
 
+.rule_list {
+    display: flex;
+    flex-direction: column;
+}
+
+.list {
+    font-weight: bold;
+    list-style-type: decimal;
+    color: white;
+    padding: 20px 30px;
+}
+
 .section2 {
     display: flex;
     flex-direction: column;
@@ -74,6 +86,11 @@ main > div {
     border-bottom: 5px solid black;
     margin: 0px;
 }
+.section3 {
+    display: flex;
+    flex-direction: column;
+    /* align-items: stretch; */
+}
 
 .rules_head3 {
     display: flex;
@@ -85,11 +102,18 @@ main > div {
     border-bottom: 5px solid black;
 }
 
-.list {
+.outside_res_list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.res_list {
+    font-size: 25px;
     font-weight: bold;
-    list-style-type: decimal;
+    padding: 10px 50px;
+    list-style-type: disc;
     color: white;
-    padding: 20px 30px;
 }
 
 .input-group {
@@ -109,26 +133,6 @@ input {
     border-radius: 8px;
 }
 
-.section3 {
-    display: flex;
-    flex-direction: column;
-    align-items: stretch;
-}
-
-.outside_res_list {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.res_list {
-    font-size: 25px;
-    font-weight: bold;
-    padding: 10px 50px;
-    list-style-type: disc;
-    color: white;
-}
-
 .btn {
     display: flex;
     justify-content: center;
@@ -137,7 +141,7 @@ input {
 button {
     border: 0px;
     border-radius: 8px;
-    padding: 20px 30px;
+    padding: 10px 30px;
     background-color: #213769;
     font-size: 20px;
     font-weight: bolder;
