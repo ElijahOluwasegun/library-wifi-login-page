@@ -25,7 +25,7 @@ header {
 
 main {
     display: flex;
-    justify-content: space-between;
+    justify-content: stretch;
     gap: 0;
     background-color: #213769a2;
     margin: 0;
@@ -38,6 +38,7 @@ main > div {
 }
 
 .body_head_text {
+    display: flex;
     font-size: 25px;
     font-weight: bold;
     color: white;
@@ -46,6 +47,7 @@ main > div {
 .section1 {
     display: flex;
     flex-direction: column;
+    align-items: stretch;
 }
 
 .rules_head1 {
@@ -61,13 +63,14 @@ main > div {
 .rule_list {
     display: flex;
     flex-direction: column;
+    padding: 20px 30px;
 }
 
 .list {
     font-weight: bold;
     list-style-type: decimal;
     color: white;
-    padding: 20px 30px;
+    padding: 15px 10px;
 }
 
 .section2 {
@@ -89,8 +92,12 @@ main > div {
 .section3 {
     display: flex;
     flex-direction: column;
-    /* align-items: stretch; */
+    margin: 0;
+    padding: 0;
+    align-items: stretch;
+    flex: 1;
 }
+
 
 .rules_head3 {
     display: flex;
