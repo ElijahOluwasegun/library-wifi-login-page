@@ -52,6 +52,7 @@ main > div {
     display: flex;
     justify-content: center;
     padding: 30px 0px;
+    text-decoration: underline;
     background-color: #213769;
     border-right: 5px solid black;
     border-bottom: 5px solid black;
@@ -66,6 +67,7 @@ main > div {
     display: flex;
     justify-content: center;
     padding: 30px 0px;
+    text-decoration: underline;
     background-color: #213769;
     border-left: 5px solid black;
     border-right: 5px solid black;
@@ -77,6 +79,7 @@ main > div {
     display: flex;
     justify-content: center;
     padding: 30px 0px;
+    text-decoration: underline;
     background-color: #213769;
     border-left: 5px solid black;
     border-bottom: 5px solid black;
@@ -139,4 +142,29 @@ button {
     font-size: 20px;
     font-weight: bolder;
     color: black;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer_text {
+    display: flex;
+    justify-content: center;
+    padding: 30px 0px;
+    font-size: 30px;
+    font-weight: bolder;
+    text-decoration: underline;
+    color: white;
+    background-color: #213769;
+    border-bottom: 5px solid black;
+}
+
+.footer_link {
+    display: flex;
+    justify-content: center;
+    padding: 30px 0px;
+    font-size: 20px;
+    font-weight: bold;
 }
