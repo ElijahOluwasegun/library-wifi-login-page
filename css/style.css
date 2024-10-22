@@ -25,8 +25,9 @@ header {
 
 main {
     display: flex;
-    justify-content:space-between;
-    background-color: #213769;
+    justify-content: space-between;
+    gap: 0;
+    background-color: #213769a2;
     margin: 0;
     padding: 0;
 }
@@ -36,24 +37,36 @@ main > div {
     padding: 0;
 }
 
-.rules_head1 {
-    display: flex;
-    justify-content: center;
-    padding: 30px 0px;
-    border-right: 5px solid black;
-    border-bottom: 5px solid black;
-}
-
 .body_head_text {
     font-size: 25px;
     font-weight: bold;
     color: white;
 }
 
+.section1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.rules_head1 {
+    display: flex;
+    justify-content: center;
+    padding: 30px 0px;
+    background-color: #213769;
+    border-right: 5px solid black;
+    border-bottom: 5px solid black;
+}
+
+.section2 {
+    display: flex;
+    flex-direction: column;
+}
+
 .rules_head2 {
     display: flex;
     justify-content: center;
     padding: 30px 0px;
+    background-color: #213769;
     border-left: 5px solid black;
     border-right: 5px solid black;
     border-bottom: 5px solid black;
@@ -64,18 +77,16 @@ main > div {
     display: flex;
     justify-content: center;
     padding: 30px 0px;
+    background-color: #213769;
     border-left: 5px solid black;
     border-bottom: 5px solid black;
 }
 
-ul {
-    list-style-type: decimal;
-}
-
-li {
-    padding: 20px 50px;
+.list {
+    font-weight: bold;
     list-style-type: decimal;
     color: white;
+    padding: 20px 30px;
 }
 
 .input-group {
@@ -93,4 +104,39 @@ label {
 input {
     border: 8px;
     border-radius: 8px;
+}
+
+.section3 {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+.outside_res_list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.res_list {
+    font-size: 25px;
+    font-weight: bold;
+    padding: 10px 50px;
+    list-style-type: disc;
+    color: white;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    border: 0px;
+    border-radius: 8px;
+    padding: 20px 30px;
+    background-color: #213769;
+    font-size: 20px;
+    font-weight: bolder;
+    color: black;
 }
