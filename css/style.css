@@ -48,8 +48,11 @@ main > div {
     display: flex;
     flex-direction: column;
     align-items: stretch;
+<<<<<<< HEAD
     margin: 0;
     padding: 0;
+=======
+>>>>>>> 2cc26ca3100acfa69751657e0e2f023039518281
 }
 
 .rules_head1 {
@@ -64,8 +67,11 @@ main > div {
 .rule_list {
     display: flex;
     flex-direction: column;
+<<<<<<< HEAD
     align-items: center;
     align-content: center;
+=======
+>>>>>>> 2cc26ca3100acfa69751657e0e2f023039518281
     padding: 20px 30px;
 }
 
@@ -74,13 +80,64 @@ main > div {
     list-style-type: decimal;
     color: white;
     padding: 15px 10px;
+<<<<<<< HEAD
     max-width: 350px;
+=======
+>>>>>>> 2cc26ca3100acfa69751657e0e2f023039518281
 }
 
 .section2 {
     display: flex;
     flex-direction: column;
+<<<<<<< HEAD
     /* width: 500px; */
+=======
+}
+
+.rules_head2 {
+    display: flex;
+    justify-content: center;
+    padding: 30px 0px;
+    text-decoration: underline;
+    background-color: #213769;
+    border-left: 5px solid black;
+    border-right: 5px solid black;
+    border-bottom: 5px solid black;
+    margin: 0px;
+}
+.section3 {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    align-items: stretch;
+    flex: 1;
+}
+
+
+.rules_head3 {
+    display: flex;
+    justify-content: center;
+    padding: 30px 0px;
+    text-decoration: underline;
+    background-color: #213769;
+    border-left: 5px solid black;
+    border-bottom: 5px solid black;
+}
+
+.outside_res_list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.res_list {
+    font-size: 25px;
+    font-weight: bold;
+    padding: 10px 50px;
+    list-style-type: disc;
+    color: white;
+>>>>>>> 2cc26ca3100acfa69751657e0e2f023039518281
 }
 
 .input-group {
