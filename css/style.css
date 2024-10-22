@@ -48,21 +48,24 @@ main > div {
     display: flex;
     flex-direction: column;
     align-items: stretch;
+    margin: 0;
+    padding: 0;
 }
 
 .rules_head1 {
     display: flex;
     justify-content: center;
     padding: 30px 0px;
-    text-decoration: underline;
+    text-decoration: underline white;
     background-color: #213769;
-    border-right: 5px solid black;
     border-bottom: 5px solid black;
 }
 
 .rule_list {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    align-content: center;
     padding: 20px 30px;
 }
 
@@ -71,21 +74,40 @@ main > div {
     list-style-type: decimal;
     color: white;
     padding: 15px 10px;
+    max-width: 350px;
 }
 
 .section2 {
     display: flex;
     flex-direction: column;
+    /* width: 500px; */
 }
+
+.input-group {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 30px 90px;
+}
+
+label {
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+input {
+    border: 8px;
+    border-radius: 8px;
+}
+
 
 .rules_head2 {
     display: flex;
     justify-content: center;
     padding: 30px 0px;
-    text-decoration: underline;
+    text-decoration: underline white;
     background-color: #213769;
     border-left: 5px solid black;
-    border-right: 5px solid black;
     border-bottom: 5px solid black;
     margin: 0px;
 }
@@ -103,7 +125,7 @@ main > div {
     display: flex;
     justify-content: center;
     padding: 30px 0px;
-    text-decoration: underline;
+    text-decoration: underline white;
     background-color: #213769;
     border-left: 5px solid black;
     border-bottom: 5px solid black;
@@ -112,7 +134,7 @@ main > div {
 .outside_res_list {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    align-items: center;
 }
 
 .res_list {
@@ -121,23 +143,6 @@ main > div {
     padding: 10px 50px;
     list-style-type: disc;
     color: white;
-}
-
-.input-group {
-    display: flex;
-    justify-content: space-between;
-    gap: 10px;
-    padding: 30px 0px;
-}
-
-label {
-    font-size: 25px;
-    font-weight: bolder;
-}
-
-input {
-    border: 8px;
-    border-radius: 8px;
 }
 
 .btn {
