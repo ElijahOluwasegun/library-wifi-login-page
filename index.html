@@ -33,17 +33,17 @@
                     <p class="body_head_text">LOGIN:</p>
                 </div>
                 <div>
-                    <form action="">
+                    <form onsubmit="return validateLogin(event)">
                         <div class="input-group">
-                            <label class="labels" for="">Username: </label>
-                            <input type="text" name="Username" required>
+                            <label class="labels" for="username">Username: </label>
+                            <input type="text" id="username" name="Username" required>
                         </div>
                         <div class="input-group">
-                            <label class="labels" for="">Password: </label>
-                            <input type="text" name="Password" required>
-                        </div>  
+                            <label class="labels" for="password">Password: </label>
+                            <input type="password" id="password" name="Password" required>
+                        </div>
                         <div class="btn">
-                            <button type="submit" name="Save">Login</button>
+                            <button type="submit">Login</button>
                         </div>
                     </form>
                 </div>
@@ -71,5 +71,26 @@
         <p class="footer_text">For More Information, Visit: </p>
         <p class="footer_link"><a href="https://www.cavendish.ac.ug/the-library/">https://www.cavendish.ac.ug/the-library/</a></p>
     </footer>
+    <script>
+        // JavaScript function to validate the login credentials
+        function validateLogin(event) {
+            event.preventDefault(); // Prevents form from submitting the traditional way
+
+            // Get the password entered by the user
+            const password = document.getElementById('password').value;
+            
+            // Define the correct password
+            const correctPassword = "library123";
+            
+            // Check if the entered password is correct
+            if (password === correctPassword) {
+                // Redirect to success page if password is correct
+                window.location.href = "success.html";
+            } else {
+                // Redirect to failure page if password is incorrect
+                window.location.href = "failure.html";
+            }
+        }
+    </script>
 </body>
 </html>
