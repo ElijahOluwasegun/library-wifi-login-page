@@ -5,6 +5,7 @@ This is a project for my Internship Training (Year 1) of Cavendish University. T
 ## Resources
 1. Figma (figma image file of design)
 2. Coolors (link to coolors website)
+3. Pexels
 
 
 
