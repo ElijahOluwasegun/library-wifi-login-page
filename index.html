@@ -79,12 +79,14 @@
 
             // Get the password entered by the user
             const password = document.getElementById('password').value;
+            const username = document.getElementById('username').value;
             
             // Define the correct password
             const correctPassword = "library123";
+            const correctUsername = "Library";
             
             // Check if the entered password is correct
-            if (password === correctPassword) {
+            if (password === correctPassword && username === correctUsername) {
                 // Redirect to success page if password is correct
                 window.location.href = "success.html";
             } else {
