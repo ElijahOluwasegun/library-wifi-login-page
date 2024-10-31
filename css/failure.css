@@ -48,8 +48,8 @@ header {
     align-items: center;
     position: absolute;
     margin: 0;
-    padding: 10px 500px; 
-    width: 2000px;
+    padding: 10px 5px; 
+    width: 500px;
     top: 30%; 
     left: 80%; 
     transform: translate(-50%, -50%); 
