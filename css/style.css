@@ -14,7 +14,7 @@ header {
     gap: 20px;
     background-color: #121E38;
     border-bottom: 5px solid black;
-    padding: 30px 0px;
+    padding: 1.875em 0em;
 }
 
 .head_image {
@@ -25,7 +25,7 @@ header {
 }
 
 .header_text {
-    font-size: 40px;
+    font-size: 2.5rem;
     font-weight: bolder;
     color: white;
 }
@@ -51,7 +51,7 @@ main > div {
 
 .body_head_text {
     display: flex;
-    font-size: 25px;
+    font-size: 1.563rem;
     font-weight: bold;
     color: white;
 }
@@ -68,7 +68,7 @@ main > div {
 .rules_head1 {
     display: flex;
     justify-content: center;
-    padding: 30px 0px;
+    padding: 1.875em 0em;
     text-decoration: underline white;
     background-color: #213769;
     border-right: 5px solid black;
@@ -80,14 +80,14 @@ main > div {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 10px 30px 0px 30px;
+    padding: 0.625em 1.875em 0em 1.875em;
 }
 
 .list {
     font-weight: bold;
     list-style-type: decimal;
     color: white;
-    padding: 15px 10px;
+    padding: 0.938em 0.625em;
     max-width: 350px;
 }
 
@@ -101,11 +101,11 @@ main > div {
     display: flex;
     justify-content: space-between;
     gap: 10px;
-    padding: 30px 90px;
+    padding: 1.875em 5.625em;
 }
 
 label {
-    font-size: 25px;
+    font-size: 1.563rem;
     font-weight: bolder;
 }
 
@@ -117,14 +117,14 @@ input {
 .rules_head2 {
     display: flex;
     justify-content: center;
-    padding: 30px 0px;
+    padding: 1.875em 0em;
     text-decoration: underline white;
     background-color: #213769;
     border-top: 5px solid black;
     border-right: 5px solid black;
     border-bottom: 5px solid black;
     border-left: 5px solid black;
-    margin: 0px;
+    margin: 0;
 }
 
 .section3 {
@@ -139,7 +139,7 @@ input {
 .rules_head3 {
     display: flex;
     justify-content: center;
-    padding: 30px 0px;
+    padding: 1.875em 0em;
     text-decoration: underline white;
     background-color: #213769;
     border-top: 5px solid black;
@@ -155,9 +155,9 @@ input {
 }
 
 .res_list {
-    font-size: 25px;
+    font-size: 1.563rem;
     font-weight: bold;
-    padding: 10px 20px;
+    padding: 0.625em 1.25em;
     list-style-type: disc;
     color: white;
 }
@@ -165,15 +165,15 @@ input {
 .btn {
     display: flex;
     justify-content: center;
-    padding: 25px 0px;
+    padding: 1.563em 0em;
 }
 
 button {
     border: 0px;
     border-radius: 8px;
-    padding: 10px 30px;
+    padding: 0.625em 1.875em;
     background-color: #213769;
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: bolder;
     color: rgb(255, 255, 255);
 }
@@ -191,8 +191,8 @@ footer {
 .footer_text {
     display: flex;
     justify-content: center;
-    padding: 30px 0px;
-    font-size: 30px;
+    padding: 1.875em 0em;
+    font-size: 1.875em;
     font-weight: bolder;
     text-decoration: underline;
     color: white;
@@ -206,7 +206,7 @@ footer {
 .footer_link {
     display: flex;
     justify-content: center;
-    padding: 30px 0px;
-    font-size: 20px;
+    padding: 1.875em 0em;
+    font-size: 1.25rem;
     font-weight: bold;
 }
